@@ -8,7 +8,7 @@ public class Date {
         this.day = day; 
     }
     public static void displayNumeric(int month, int day, int year){
-        System.out.print(month + "/" + day + "/" + Integer.toString(year));
+        System.out.print(month + "/" + day + "/" + Integer.toString(year) + "\n");
     }
     public static void displayMonthFirst(int month, int day, int year){
        String stringMonth="";
@@ -48,7 +48,7 @@ public class Date {
         else if (month == 12){
             stringMonth = "December";
         }
-        System.out.print(stringMonth + " " + day + ", " + year);
+        System.out.print(stringMonth + " " + day + ", " + year + "\n");
     }
     public static void displayDayFirst(int month, int day, int year){
         String stringMonth="";
@@ -88,6 +88,6 @@ public class Date {
         else if (month == 12){
             stringMonth = "December";
         }
-        System.out.print(day + " " + stringMonth + " " + year);
+        System.out.print(day + " " + stringMonth + " " + year + "\n");
     }
 }
